@@ -1,0 +1,11 @@
+@import "tailwindcss";
+*{
+  color:rgb(210, 214, 214);
+}
+body{
+  background-color: rgb(37, 37, 33);
+}
+#tasklist::-webkit-scrollbar{
+  display: none;
+  margin-top: 20px;
+}

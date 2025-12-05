@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../others/header.jsx';
+import AllATask from '../others/AllATask.jsx';
 
 const Admindashboard = () => {
   return (
@@ -27,7 +28,9 @@ const Admindashboard = () => {
                 <button type='submit' className='bg-green-600 text-white p-2 rounded-md mt-4 '>Create Task</button> 
             </form>
         </div>
+        <AllATask />
     </div>
+
   )
 }
 

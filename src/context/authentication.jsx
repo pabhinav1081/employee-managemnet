@@ -1,9 +1,0 @@
-import React from 'react'
-
-const Authentication = ({children}) => {
-  return (
-    <div>{children}</div>
-  )
-}
-
-export default Authentication
